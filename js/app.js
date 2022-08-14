@@ -173,6 +173,7 @@ export const UI = {
         Data.forEach((data, i) => {
             console.log(data.task);
             let table = SetTaskTable(data.task)
+            let profile_picture = data.userData.img === "" ? './img/dummy.jpg' : `./img/${data.userData.img}`
             let card =
                 `
                         <div class="card my-4">
@@ -183,7 +184,7 @@ export const UI = {
                                 <div class="row">
                                     <div class="col-md-3" style="border-right: 1px solid black">
                                         <div id="pic" class="">
-                                            <img src="./img/${data.userData.img}" alt="user picture" class="picture p-3" id="user-pic">
+                                            <img src="${profile_picture}" alt="user picture" class="picture p-3" id="user-pic">
                                         </div>
                                         <div id="info" class="align-self-center d-block p-3">
                                             <p id="userName" class="h3 text-primary text-uppercase font-weight-bold">${data.userData.name}</p>
