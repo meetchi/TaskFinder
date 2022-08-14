@@ -1,0 +1,24 @@
+{
+    "tasks" : [
+        {
+            "id": 1,
+            "code": "Sweeping",
+            "description": "Sweeping of the room and corridor to restroom"
+        },
+        {
+            "id": 2,
+            "code": "Cleaning",
+            "description": "Cleaning of the restroom"
+        },
+        {
+            "id": 3,
+            "code": "Water",
+            "description": "Fetching of water"
+        },
+        {
+            "id": 4,
+            "code": "Gas duty",
+            "description": "Refilling of gas"
+        }
+    ]
+}

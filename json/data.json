@@ -1,0 +1,104 @@
+{
+    "tasks" : [
+        {
+            "id": 1,
+            "code": "Sweeping",
+            "description": "Sweeping of the room and corridor to restroom"
+        },
+        {
+            "id": 2,
+            "code": "Cleaning",
+            "description": "Cleaning of the restroom"
+        },
+        {
+            "id": 3,
+            "code": "Water",
+            "description": "Fetching of water"
+        },
+        {
+            "id": 4,
+            "code": "Gas duty",
+            "description": "Refilling of gas"
+        }
+    ],
+    
+    "users" : [
+        {
+            "id": 1,
+            "name": "George ebisike",
+            "stack": "Fullstack Developer",
+            "portfolio": "software engineer",
+            "img" : "george.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Teslin",
+            "stack": "Mobile Developer",
+            "portfolio": "software engineer",
+            "img" : "george1.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Victor",
+            "stack": "Designer",
+            "portfolio": "Ui/Ux Designer",
+            "img" : "george2.jpg"
+        },
+        {
+            "id": 4,
+            "name": "David",
+            "stack": "Fullstack Developer",
+            "portfolio": "intern",
+            "img" : "george3.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Temy",
+            "stack": "Fullstack Developer",
+            "portfolio": "intern",
+            "img" : "george4.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Bright",
+            "stack": "Blockchain Developer",
+            "portfolio": "intern",
+            "img" : "george5.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Berit",
+            "stack": "Fullstack Developer",
+            "portfolio": "Software Engineer",
+            "img" : "george6.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Junior Machine",
+            "stack": "Frontend Developer",
+            "portfolio": "intern",
+            "img" : "george7.jpg"
+        }
+    ],
+
+    "schedules": [
+        {
+            "id": 1,
+            "task_id" : "[1, 3]",
+            "user_id": "1",
+            "date" : "2022-08-12"
+        },
+        {
+            "id": 2,
+            "task_id" : "[2, 4]",
+            "user_id": "3",
+            "date" : "2022-08-12"
+        },
+        {
+            "id": 3,
+            "task_id" : "[2, 4]",
+            "user_id": "4",
+            "date" : "2022-08-12"
+        }
+    ]
+}

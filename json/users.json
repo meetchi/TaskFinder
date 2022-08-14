@@ -1,0 +1,52 @@
+{
+    "users" : [
+        {
+            "id": 1,
+            "name": "George ebisike",
+            "stack": "Fullstack Developer",
+            "portfolio": "software engineer"
+        },
+        {
+            "id": 2,
+            "name": "Teslin",
+            "stack": "Mobile Developer",
+            "portfolio": "software engineer"
+        },
+        {
+            "id": 3,
+            "name": "Victor",
+            "stack": "Designer",
+            "portfolio": "Ui/Ux Designer"
+        },
+        {
+            "id": 4,
+            "name": "David",
+            "stack": "Fullstack Developer",
+            "portfolio": "intern"
+        },
+        {
+            "id": 5,
+            "name": "Temy",
+            "stack": "Fullstack Developer",
+            "portfolio": "intern"
+        },
+        {
+            "id": 6,
+            "name": "Bright",
+            "stack": "Blockchain Developer",
+            "portfolio": "intern"
+        },
+        {
+            "id": 7,
+            "name": "Berit",
+            "stack": "Fullstack Developer",
+            "portfolio": "Software Engineer"
+        },
+        {
+            "id": 8,
+            "name": "Junior Machine",
+            "stack": "Frontend Developer",
+            "portfolio": "intern"
+        }
+    ]
+}

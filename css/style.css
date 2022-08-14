@@ -1,0 +1,16 @@
+#info{
+    /* width: 100%; */
+}
+img.picture{
+    border-radius: 50%;
+    width: 50%;
+    /* float: right; */
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#portfolio{
+    font-weight: bold;
+}
